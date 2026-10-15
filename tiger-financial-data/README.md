@@ -18,7 +18,13 @@ Django dashboard (http://127.0.0.1:8000) ── live prices, charts and candles,
 - **Storage**: `ticks` is a TimescaleDB hypertable. `ticks_1m` is a real-time continuous aggregate with open, high, low, close, volume and number of trades per minute.
 - **Dashboard**: a Django view reads the latest prices and the 1-minute candles, and the page refreshes itself through a small JSON API (`/api/prices/`).
 
-_Screenshot of the live dashboard: see `screenshots/` (added after running it on my Tiger Cloud service)._
+### Live dashboard (real Coinbase data stored in my Tiger Cloud service)
+
+![FinTrack dashboard](screenshots/dashboard.png)
+
+### Ingestion running: trades inserted in batches every 2 seconds
+
+![Ingestion terminal](screenshots/ingest.png)
 
 ## How to run it
 

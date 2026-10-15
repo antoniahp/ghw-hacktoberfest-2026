@@ -23,3 +23,15 @@ Requires Python 3.
 ## About
 
 Built with GitHub Copilot for MLH Global Hack Week: Hacktoberfest.
+
+## Screenshots
+
+Ritmo running in the VS Code terminal, with the GitHub Copilot chat that built it on the right.
+
+### Task list and Pomodoro timer
+
+![Task list and Pomodoro timer](screenshots/tasks-and-pomodoro.png)
+
+### Adding tasks
+
+![Adding tasks](screenshots/adding-tasks.png)
